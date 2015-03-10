@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sentiment analisis on inputed text</title>
+  <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<script src="//code.jquery.com/jquery.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+			
+    
+    <form action="" method="POST" role="form">
+	<legend>Enter text to get sentiment</legend>
+
+	<div class="form-group">
+    <textarea class="form-control" rows="3" id="parseThis"></textarea>
+	</div>
+      
+  <div class="form-group">
+    <h6>Positive Score <span class="label label-success" id="posScore"></span></h6>
+    <h6>Negitive Score <span class="label label-danger" id="negScore"></span></h6>
+    <h6>Total Score <span class="label label-primary" id="finalScore"></span></h6>
+    <h6>Comparitive<span class="label label-primary" id="comparitive"></span></h6>
+  </div>
+
+	
+
+	<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    
+    
+    
+	</div>	
+</div>
+  
+
+
+<script src="js/sentiment.js"></script>
+</body>
+</html>
+
+
+
